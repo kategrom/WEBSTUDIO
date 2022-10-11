@@ -1,0 +1,33 @@
+
+.hero{
+    background: url('../Img/hero-photos/photo-logo.png');
+    background-size: cover;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 94px;
+}
+
+.hero .container{
+    text-align: center;
+}
+
+.hero-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    margin: 0 auto;
+    max-width: 696px;
+    
+    color: #FFFFFF; 
+    
+    margin-bottom: 30px;
+}

@@ -1,0 +1,194 @@
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./specifics.css);
+@import url(./work.css);
+@import url(./team.css);
+@import url(./clients.css);
+@import url(./footer.css);
+
+@import url(./popup.css);
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --accent-color: #2196f3;
+  --dark-text: #212121;
+  --light-text: #757575;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--dark-text);
+}
+
+textarea{
+  font-family: inherit;
+}
+
+section{
+    margin-bottom: 94px;
+}
+
+.socials{
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+}
+
+.socials__link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  transition: background-color .3s;
+}
+
+.socials__link:hover{
+  background-color: var(--accent-color);
+}
+
+.socials__link path{
+  transition: fill .3s;
+}
+
+.socials__link:hover path{
+  fill: #fff;
+}
+
+.socials_dark .socials__link{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.socials_dark path{
+  flood-color: #fff;
+}
+
+.socials_dark .socials__link:hover{
+  background-color: var(--accent-color);
+}
+
+.form__control{
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  padding: 15px 16px;
+  background-color: transparent;
+  color: #fff;
+
+  transition: norder-color 75ms;
+}
+
+.form__control:focus{
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.form__control::placeholder{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  
+  color: rgba(255, 255, 255, 0.6);
+  
+}
+
+.section-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--accent-color);
+}
+
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn{
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  
+  color: #FFFFFF;    
+  border: none;
+  padding: 16px 29px;
+
+  cursor: pointer;
+
+  transition: backgrond-color 0.1s;
+}
+
+.btn:hover{
+  background-color: #3f81b8;
+}
+
+/* header */
+
+
+/* hero */
+
+
+/* specifics*/
+
+
+  /* work */
+
+  
+/* section team */
+
+
+/* clients */
+ 

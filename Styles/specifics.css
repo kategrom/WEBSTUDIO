@@ -1,0 +1,51 @@
+
+.specifics-item__icon-bg{
+    border-radius: 4px;
+    background-color: #f5f4fa;
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 30px;
+}
+
+.specifics-item__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .specifics-item__description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--light-text);
+  }
+
+  .specifics__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+
+  @media (max-width: 980px) {
+    .specifics__grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .specifics__grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .specifics-item__title {
+      text-align: center;
+    }
+  }
+  
